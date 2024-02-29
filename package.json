@@ -1,0 +1,25 @@
+{
+  "name":         "docco-toc",
+  "description":  "docco with a table of contents",
+  "keywords":     ["documentation", "docs", "generator", "literate", "coffeescript"],
+  "author":       "phillips1012",
+  "version":      "0.7.4",
+  "licenses": [{
+    "type":       "MIT",
+    "url":        "http://opensource.org/licenses/mit-license.php"
+  }],
+  "engines": {
+    "node":       ">=0.2.0"
+  },
+  "dependencies": {
+    "commander":  ">= 0.5.2",
+    "marked":     ">= 0.2.7",
+    "fs-extra":   ">= 0.6.0",
+    "underscore": ">= 1.0.0",
+    "highlight.js": ">= 8.0.x"
+  },
+  "main" :        "./docco",
+  "bin": {
+    "docco-toc":      "./bin/docco-toc"
+  }
+}
