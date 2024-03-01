@@ -1,6 +1,6 @@
 {
   "name": "doccorec-toc",
-  "description": "doccorec-toc@0.7.4 == docco-toc@v0.7.4 recovered (docco-toc is docco with a table of contents)",
+  "description": "doccorec-toc@0.7.5 == docco-toc@v0.7.4 recovered (docco-toc is docco with a table of contents)",
   "keywords": [
     "documentation",
     "docs",
@@ -11,7 +11,9 @@
     "docco"
   ],
   "author": "the-moog",
+  "maintainers": ["the-moog@gmx.co.uk"],
   "version": "0.7.5",
+  "bugs": "https://github.com/the-moog/DoccOrec-TOC_--aka--_Docco-TOC-v0.7.4-Revival/issues",
   "licenses": [
     {
       "type": "MIT",
