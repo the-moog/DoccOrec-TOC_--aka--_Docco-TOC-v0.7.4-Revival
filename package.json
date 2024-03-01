@@ -1,25 +1,37 @@
 {
-  "name":         "docco-toc",
-  "description":  "docco with a table of contents",
-  "keywords":     ["documentation", "docs", "generator", "literate", "coffeescript"],
-  "author":       "phillips1012",
-  "version":      "0.7.4",
-  "licenses": [{
-    "type":       "MIT",
-    "url":        "http://opensource.org/licenses/mit-license.php"
-  }],
+  "name": "doccorec-toc",
+  "description": "doccorec-toc@0.7.4 == docco-toc@v0.7.4 recovered (docco-toc is docco with a table of contents)",
+  "keywords": [
+    "documentation",
+    "docs",
+    "generator",
+    "literate",
+    "coffeescript",
+    "docco-toc",
+    "docco"
+  ],
+  "author": "the-moog",
+  "version": "0.7.5",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
   "engines": {
-    "node":       ">=0.2.0"
+    "node": ">=0.2.0"
   },
   "dependencies": {
-    "commander":  ">= 0.5.2",
-    "marked":     ">= 0.2.7",
-    "fs-extra":   ">= 0.6.0",
-    "underscore": ">= 1.0.0",
-    "highlight.js": ">= 8.0.x"
+    "commander": ">= 0.5.2",
+    "fs-extra": ">= 0.6.0",
+    "highlight.js": ">= 8.0.x",
+    "marked": ">= 0.2.7",
+    "underscore": ">= 1.0.0"
   },
-  "main" :        "./docco",
+  "main": "./docco",
   "bin": {
-    "docco-toc":      "./bin/docco-toc"
-  }
+    "docco-toc": "./bin/docco-toc"
+  },
+  "repository": "ssh://git@github.com/the-moog/DoccOrec-TOC_--aka--_Docco-TOC-v0.7.4-Revival",
+  "license": "MIT"
 }
